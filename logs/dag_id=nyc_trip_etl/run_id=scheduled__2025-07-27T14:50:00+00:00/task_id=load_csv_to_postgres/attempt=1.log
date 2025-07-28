@@ -1,0 +1,19 @@
+{"timestamp":"2025-07-27T14:50:08.328230","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-27T14:50:08.336305","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/__pycache__/nyc_trip_etl_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-27T14:50:08.518457Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-27T14:50:08.519915Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-27T14:50:08.522848Z","level":"info","event":"Current task name:load_csv_to_postgres","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-27T14:50:08.524060Z","level":"info","event":"Dag name:nyc_trip_etl","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-27T14:50:08.537831Z","level":"info","event":"Processing file: /opt/airflow/data/yellow_tripdata_2019/yellow_tripdata_2019-01.csv","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-27T14:50:10.433002Z","level":"info","event":"Total rows: 7667792, Batches: 16","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-27T14:50:11.374548Z","level":"info","event":"Inserted 500000 rows from yellow_tripdata_2019-01.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-27T14:50:12.195126Z","level":"info","event":"Inserted 500000 rows from yellow_tripdata_2019-01.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-27T14:50:13.369663Z","level":"info","event":"Inserted 500000 rows from yellow_tripdata_2019-01.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-27T14:50:14.193144Z","level":"info","event":"Inserted 500000 rows from yellow_tripdata_2019-01.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-27T14:50:14.919940Z","level":"info","event":"Inserted 500000 rows from yellow_tripdata_2019-01.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-27T14:50:16.146148Z","level":"info","event":"Inserted 500000 rows from yellow_tripdata_2019-01.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-27T14:50:17.403392Z","level":"info","event":"Inserted 500000 rows from yellow_tripdata_2019-01.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-27T14:50:18.262991Z","level":"info","event":"Inserted 500000 rows from yellow_tripdata_2019-01.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-27T14:50:18.987912Z","level":"info","event":"Inserted 500000 rows from yellow_tripdata_2019-01.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-27T14:50:50.040928Z","level":"info","event":"Inserted 500000 rows from yellow_tripdata_2019-01.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-27T14:51:40.542694Z","level":"critical","event":"Process terminated by signal. For more information, see https://airflow.apache.org/docs/apache-airflow/stable/troubleshooting.html#TaskRunner-killed","signal":-9,"signal_name":"SIGKILL","logger":"task"}

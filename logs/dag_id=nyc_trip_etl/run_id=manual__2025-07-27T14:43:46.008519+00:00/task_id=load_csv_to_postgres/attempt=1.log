@@ -1,0 +1,28 @@
+{"timestamp":"2025-07-27T14:43:47.155738","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-27T14:43:47.156279","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/__pycache__/nyc_trip_etl_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-27T14:43:47.180498Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-27T14:43:47.180694Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-27T14:43:47.180873Z","level":"info","event":"Current task name:load_csv_to_postgres","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-27T14:43:47.181042Z","level":"info","event":"Dag name:nyc_trip_etl","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-27T14:43:47.185326Z","level":"info","event":"Processing file: /opt/airflow/data/yellow_tripdata_2019/yellow_tripdata_2019-01.csv","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-27T14:43:48.499293Z","level":"info","event":"Total rows: 7667792, Batches: 16","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-27T14:43:49.144318Z","level":"info","event":"Inserted 500000 rows from yellow_tripdata_2019-01.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-27T14:43:49.788614Z","level":"info","event":"Inserted 500000 rows from yellow_tripdata_2019-01.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-27T14:43:50.322926Z","level":"info","event":"Inserted 500000 rows from yellow_tripdata_2019-01.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-27T14:43:51.071452Z","level":"info","event":"Inserted 500000 rows from yellow_tripdata_2019-01.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-27T14:43:51.827117Z","level":"info","event":"Inserted 500000 rows from yellow_tripdata_2019-01.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-27T14:43:52.714072Z","level":"info","event":"Inserted 500000 rows from yellow_tripdata_2019-01.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-27T14:43:53.994345Z","level":"info","event":"Inserted 500000 rows from yellow_tripdata_2019-01.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-27T14:43:54.641463Z","level":"info","event":"Inserted 500000 rows from yellow_tripdata_2019-01.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-27T14:43:55.205831Z","level":"info","event":"Inserted 500000 rows from yellow_tripdata_2019-01.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-27T14:44:18.076831Z","level":"info","event":"Inserted 500000 rows from yellow_tripdata_2019-01.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-27T14:45:45.410934Z","level":"info","event":"Inserted 500000 rows from yellow_tripdata_2019-01.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-27T14:47:19.198451Z","level":"info","event":"Inserted 500000 rows from yellow_tripdata_2019-01.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-27T14:48:48.624220Z","level":"info","event":"Inserted 500000 rows from yellow_tripdata_2019-01.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-27T14:50:20.978723Z","level":"info","event":"Inserted 500000 rows from yellow_tripdata_2019-01.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-27T14:52:15.902037Z","level":"info","event":"Inserted 500000 rows from yellow_tripdata_2019-01.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-27T14:52:58.008198Z","level":"info","event":"Inserted 500000 rows from yellow_tripdata_2019-01.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-27T14:52:58.192205","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-07-27T14:52:58.235316Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-27T14:52:58.235715Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-27T14:52:58.236689Z","level":"info","event":"Task operator:<Task(PythonOperator): load_csv_to_postgres>","chan":"stdout","logger":"task"}
