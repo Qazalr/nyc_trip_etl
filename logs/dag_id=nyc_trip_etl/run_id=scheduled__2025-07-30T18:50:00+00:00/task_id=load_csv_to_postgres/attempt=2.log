@@ -1,0 +1,94 @@
+{"timestamp":"2025-07-30T18:57:19.590092","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-30T18:57:19.590413","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/__pycache__/nyc_trip_etl_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-30T18:57:19.624240Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T18:57:19.624706Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T18:57:19.625269Z","level":"info","event":"Current task name:load_csv_to_postgres","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T18:57:19.626189Z","level":"info","event":"Dag name:nyc_trip_etl","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T18:57:19.638895Z","level":"info","event":"Processing file: /opt/airflow/data/yellow_tripdata_2019/yellow_tripdata_2019-03.csv","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T18:57:22.637916Z","level":"info","event":"Total rows: 7832545, Batches: 79","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T18:57:28.987825Z","level":"info","event":"Inserted 100000 rows from yellow_tripdata_2019-03.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T18:57:33.577543Z","level":"info","event":"Inserted 100000 rows from yellow_tripdata_2019-03.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T18:57:40.165928Z","level":"info","event":"Inserted 100000 rows from yellow_tripdata_2019-03.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T18:57:44.711282Z","level":"info","event":"Inserted 100000 rows from yellow_tripdata_2019-03.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T18:57:49.157815Z","level":"info","event":"Inserted 100000 rows from yellow_tripdata_2019-03.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T18:57:53.730935Z","level":"info","event":"Inserted 100000 rows from yellow_tripdata_2019-03.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T18:57:59.510560Z","level":"info","event":"Inserted 100000 rows from yellow_tripdata_2019-03.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T18:58:03.813446Z","level":"info","event":"Inserted 100000 rows from yellow_tripdata_2019-03.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T18:58:08.390500Z","level":"info","event":"Inserted 100000 rows from yellow_tripdata_2019-03.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T18:58:13.948619Z","level":"info","event":"Inserted 100000 rows from yellow_tripdata_2019-03.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T18:58:18.922049Z","level":"info","event":"Inserted 100000 rows from yellow_tripdata_2019-03.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T18:58:23.894942Z","level":"info","event":"Inserted 100000 rows from yellow_tripdata_2019-03.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T18:58:30.389338Z","level":"info","event":"Inserted 100000 rows from yellow_tripdata_2019-03.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T18:58:34.396427Z","level":"info","event":"Inserted 100000 rows from yellow_tripdata_2019-03.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T18:58:38.319377Z","level":"info","event":"Inserted 100000 rows from yellow_tripdata_2019-03.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T18:58:42.065714Z","level":"info","event":"Inserted 100000 rows from yellow_tripdata_2019-03.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T18:58:47.151686Z","level":"info","event":"Inserted 100000 rows from yellow_tripdata_2019-03.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T18:58:51.461770Z","level":"info","event":"Inserted 100000 rows from yellow_tripdata_2019-03.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T18:58:56.331793Z","level":"info","event":"Inserted 100000 rows from yellow_tripdata_2019-03.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T18:59:00.769343Z","level":"info","event":"Inserted 100000 rows from yellow_tripdata_2019-03.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T18:59:05.769341Z","level":"info","event":"Inserted 100000 rows from yellow_tripdata_2019-03.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T18:59:09.754514Z","level":"info","event":"Inserted 100000 rows from yellow_tripdata_2019-03.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T18:59:14.623550Z","level":"info","event":"Inserted 100000 rows from yellow_tripdata_2019-03.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T18:59:19.918926Z","level":"info","event":"Inserted 100000 rows from yellow_tripdata_2019-03.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T18:59:27.509416Z","level":"info","event":"Inserted 100000 rows from yellow_tripdata_2019-03.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T18:59:34.344305Z","level":"info","event":"Inserted 100000 rows from yellow_tripdata_2019-03.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T18:59:39.329204Z","level":"info","event":"Inserted 100000 rows from yellow_tripdata_2019-03.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T18:59:44.761818Z","level":"info","event":"Inserted 100000 rows from yellow_tripdata_2019-03.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T18:59:51.118866Z","level":"info","event":"Inserted 100000 rows from yellow_tripdata_2019-03.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T18:59:58.888459Z","level":"info","event":"Inserted 100000 rows from yellow_tripdata_2019-03.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T19:00:07.967556Z","level":"info","event":"Inserted 100000 rows from yellow_tripdata_2019-03.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T19:00:16.546086Z","level":"info","event":"Inserted 100000 rows from yellow_tripdata_2019-03.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T19:00:21.174818Z","level":"info","event":"Inserted 100000 rows from yellow_tripdata_2019-03.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T19:00:26.532599Z","level":"info","event":"Inserted 100000 rows from yellow_tripdata_2019-03.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T19:00:33.041443Z","level":"info","event":"Inserted 100000 rows from yellow_tripdata_2019-03.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T19:00:37.864248Z","level":"info","event":"Inserted 100000 rows from yellow_tripdata_2019-03.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T19:00:41.695588Z","level":"info","event":"Inserted 100000 rows from yellow_tripdata_2019-03.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T19:00:46.404714Z","level":"info","event":"Inserted 100000 rows from yellow_tripdata_2019-03.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T19:00:50.959407Z","level":"info","event":"Inserted 100000 rows from yellow_tripdata_2019-03.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T19:00:55.499520Z","level":"info","event":"Inserted 100000 rows from yellow_tripdata_2019-03.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T19:01:00.582657Z","level":"info","event":"Inserted 100000 rows from yellow_tripdata_2019-03.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T19:01:05.232424Z","level":"info","event":"Inserted 100000 rows from yellow_tripdata_2019-03.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T19:01:11.898115Z","level":"info","event":"Inserted 100000 rows from yellow_tripdata_2019-03.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T19:01:16.876167Z","level":"info","event":"Inserted 100000 rows from yellow_tripdata_2019-03.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T19:01:20.813767Z","level":"info","event":"Inserted 100000 rows from yellow_tripdata_2019-03.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T19:01:24.951311Z","level":"info","event":"Inserted 100000 rows from yellow_tripdata_2019-03.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T19:01:29.360321Z","level":"info","event":"Inserted 100000 rows from yellow_tripdata_2019-03.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T19:01:33.270225Z","level":"info","event":"Inserted 100000 rows from yellow_tripdata_2019-03.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T19:01:38.530006Z","level":"info","event":"Inserted 100000 rows from yellow_tripdata_2019-03.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T19:01:44.680848Z","level":"info","event":"Inserted 100000 rows from yellow_tripdata_2019-03.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T19:01:48.803945Z","level":"info","event":"Inserted 100000 rows from yellow_tripdata_2019-03.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T19:01:52.713820Z","level":"info","event":"Inserted 100000 rows from yellow_tripdata_2019-03.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T19:01:58.995374Z","level":"info","event":"Inserted 100000 rows from yellow_tripdata_2019-03.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T19:02:03.786434Z","level":"info","event":"Inserted 100000 rows from yellow_tripdata_2019-03.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T19:02:08.307788Z","level":"info","event":"Inserted 100000 rows from yellow_tripdata_2019-03.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T19:02:11.651381Z","level":"info","event":"Inserted 100000 rows from yellow_tripdata_2019-03.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T19:02:15.800164Z","level":"info","event":"Inserted 100000 rows from yellow_tripdata_2019-03.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T19:02:19.886890Z","level":"info","event":"Inserted 100000 rows from yellow_tripdata_2019-03.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T19:02:23.520489Z","level":"info","event":"Inserted 100000 rows from yellow_tripdata_2019-03.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T19:02:28.333189Z","level":"info","event":"Inserted 100000 rows from yellow_tripdata_2019-03.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T19:02:32.165858Z","level":"info","event":"Inserted 100000 rows from yellow_tripdata_2019-03.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T19:02:35.966463Z","level":"info","event":"Inserted 100000 rows from yellow_tripdata_2019-03.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T19:02:39.444140Z","level":"info","event":"Inserted 100000 rows from yellow_tripdata_2019-03.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T19:02:42.819817Z","level":"info","event":"Inserted 100000 rows from yellow_tripdata_2019-03.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T19:02:46.293598Z","level":"info","event":"Inserted 100000 rows from yellow_tripdata_2019-03.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T19:02:51.991374Z","level":"info","event":"Inserted 100000 rows from yellow_tripdata_2019-03.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T19:02:57.549342Z","level":"info","event":"Inserted 100000 rows from yellow_tripdata_2019-03.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T19:03:03.796919Z","level":"info","event":"Inserted 100000 rows from yellow_tripdata_2019-03.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T19:03:07.966040Z","level":"info","event":"Inserted 100000 rows from yellow_tripdata_2019-03.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T19:03:11.938184Z","level":"info","event":"Inserted 100000 rows from yellow_tripdata_2019-03.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T19:03:15.538642Z","level":"info","event":"Inserted 100000 rows from yellow_tripdata_2019-03.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T19:03:19.205657Z","level":"info","event":"Inserted 100000 rows from yellow_tripdata_2019-03.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T19:03:22.705207Z","level":"info","event":"Inserted 100000 rows from yellow_tripdata_2019-03.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T19:03:27.050825Z","level":"info","event":"Inserted 100000 rows from yellow_tripdata_2019-03.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T19:03:30.844775Z","level":"info","event":"Inserted 100000 rows from yellow_tripdata_2019-03.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T19:03:35.539135Z","level":"info","event":"Inserted 100000 rows from yellow_tripdata_2019-03.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T19:03:39.065051Z","level":"info","event":"Inserted 100000 rows from yellow_tripdata_2019-03.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T19:03:43.271653Z","level":"info","event":"Inserted 100000 rows from yellow_tripdata_2019-03.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T19:03:44.392880Z","level":"info","event":"Inserted 32545 rows from yellow_tripdata_2019-03.csv.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T19:03:44.400873","level":"error","event":"Task failed with exception","logger":"task","error_detail":[{"exc_type":"UniqueViolation","exc_value":"duplicate key value violates unique constraint \"loaded_files_pkey\"\nDETAIL:  Key (filename)=(yellow_tripdata_2019-03.csv) already exists.\n","exc_notes":[],"syntax_error":null,"is_cause":false,"frames":[{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/sdk/execution_time/task_runner.py","lineno":877,"name":"run"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/sdk/execution_time/task_runner.py","lineno":1164,"name":"_execute_task"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/sdk/bases/operator.py","lineno":397,"name":"wrapper"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/standard/operators/python.py","lineno":217,"name":"execute"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/standard/operators/python.py","lineno":240,"name":"execute_callable"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/sdk/execution_time/callback_runner.py","lineno":81,"name":"run"},{"filename":"/opt/airflow/dags/scripts/load_csv_to_postgres.py","lineno":72,"name":"load_csv_to_postgres"}],"is_group":false,"exceptions":[]}]}
+{"timestamp":"2025-07-30T19:03:44.417906Z","level":"info","event":"Task instance in failure state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T19:03:44.419410Z","level":"info","event":"Task start","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T19:03:44.419684Z","level":"info","event":"Task:<Task(PythonOperator): load_csv_to_postgres>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T19:03:44.419821Z","level":"info","event":"Failure caused by duplicate key value violates unique constraint \"loaded_files_pkey\"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T19:03:44.419932Z","level":"info","event":"DETAIL:  Key (filename)=(yellow_tripdata_2019-03.csv) already exists.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T19:03:44.420039Z","level":"info","event":"","chan":"stdout","logger":"task"}

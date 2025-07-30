@@ -20,5 +20,6 @@ CREATE TABLE raw_trips (
     tolls_amount FLOAT,
     improvement_surcharge FLOAT,
     total_amount FLOAT,
-    congestion_surcharge FLOAT
+    congestion_surcharge FLOAT,
+    amount_per_passenger FLOAT
 );

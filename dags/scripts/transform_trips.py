@@ -21,11 +21,6 @@ def transform_data():
     """)
     conn.commit()
 
-    cursor.execute("""
-        ALTER TABLE raw_trips
-        ADD COLUMN IF NOT EXISTS amount_per_passenger FLOAT;
-    """)
-    conn.commit()
 
     cursor.execute("""
         UPDATE raw_trips

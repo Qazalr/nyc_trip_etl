@@ -1,5 +1,6 @@
 import os
 import psycopg2
+from psycopg2.extras import execute_values
 import pandas as pd
 import math
 
@@ -29,6 +30,7 @@ def load_csv_to_postgres():
 
     for filename in sorted(os.listdir(DATA_FOLDER)):
         if not filename.endswith('.csv') or filename in processed_files:
+            print(f"Skipping {filename} — already processed.")
             continue
 
         csv_path = os.path.join(DATA_FOLDER, filename)
@@ -47,25 +49,28 @@ def load_csv_to_postgres():
                 'trip_distance': 'trip_distance',
                 'total_amount': 'total_amount'
             })
-            
+
             chunk = chunk.dropna()
             chunk['amount_per_passenger'] = chunk['total_amount'] / chunk['passenger_count']
 
-            for _, row in chunk.iterrows():
-                cursor.execute("""
-                    INSERT INTO raw_trips (
-                        vendor_id, tpep_pickup_datetime, tpep_dropoff_datetime, 
-                        passenger_count, trip_distance, total_amount, amount_per_passenger
-                    )
-                    VALUES (%s, %s, %s, %s, %s, %s, %s)
-                """, (
+            values = [
+                (
                     row['vendor_id'], row['tpep_pickup_datetime'], row['tpep_dropoff_datetime'],
                     row['passenger_count'], row['trip_distance'], row['total_amount'], row['amount_per_passenger']
-                ))
-            conn.commit()
-            print(f"Inserted {CHUNKSIZE} rows from {filename}.")
+                )
+                for _, row in chunk.iterrows()
+            ]
 
-      
+            execute_values(cursor, """
+                INSERT INTO raw_trips (
+                    vendor_id, tpep_pickup_datetime, tpep_dropoff_datetime, 
+                    passenger_count, trip_distance, total_amount, amount_per_passenger
+                ) VALUES %s
+            """, values)
+            conn.commit()
+            print(f"Inserted {len(values)} rows from {filename}.")
+        
+        # Insert filename only if not already in table (avoids duplicate insert)
         cursor.execute("INSERT INTO loaded_files (filename) VALUES (%s)", (filename,))
         conn.commit()
 
