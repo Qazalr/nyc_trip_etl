@@ -1,3 +1,4 @@
 # Ignore big CSV datasets
 *.csv
 data
+logs/
